@@ -42,7 +42,7 @@
     "currency_code_enabled": false,
     "stagger_products_apparition": true,
     "round_color_swatches": true,
-    "show_vendor": true,
+    "show_vendor": false,
     "show_secondary_image": true,
     "show_product_rating": true,
     "product_color_display": "hide",

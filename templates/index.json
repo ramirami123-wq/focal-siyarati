@@ -135,6 +135,37 @@
       "type": "_blocks",
       "settings": {}
     },
+    "featured_collections_dbhjWT": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_AXLHdB": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-products",
+            "label": "",
+            "button_text": "View Collection",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_AXLHdB"
+      ],
+      "name": "Featured collections",
+      "settings": {
+        "subheading": "Browse our complete collection",
+        "title": "Shop All Products",
+        "content": "",
+        "products_count": 12,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "rich_text_8iDkdx": {
       "type": "rich-text",
       "name": "Rich text",
@@ -229,6 +260,7 @@
     "slideshow",
     "featured_product_qm78ER",
     "17721123692ddca8e9",
+    "featured_collections_dbhjWT",
     "rich_text_8iDkdx",
     "faq_CKztym",
     "shop-the-look"
