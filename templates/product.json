@@ -137,10 +137,21 @@
     "image_with_text_8YkwVd": {
       "type": "image-with-text",
       "blocks": {
+        "item_kfGqpp": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "item_BrjwQF": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/s-l400.png",
+            "image": "shopify://shop_images/bundle.png",
             "tab_label": "Item",
             "subheading": "",
             "title": "",
@@ -151,6 +162,7 @@
         }
       },
       "block_order": [
+        "item_kfGqpp",
         "item_BrjwQF"
       ],
       "name": "Image with text",
@@ -205,6 +217,18 @@
     "image_with_text_XrnFrQ": {
       "type": "image-with-text",
       "blocks": {
+        "item_RnckDd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1759066665_phpi4ae4pr759ne6NC4LOC.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "",
+            "content": "<p>✔️Restores faded plastic in minutes</p><p><br/>✔️Brings back deep, rich color instantly</p><p><br/>✔️ Long-lasting protection against sun damage ☀️</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "item_GpEwj6": {
           "type": "item",
           "settings": {
@@ -219,6 +243,7 @@
         }
       },
       "block_order": [
+        "item_RnckDd",
         "item_GpEwj6"
       ],
       "name": "Image with text",
