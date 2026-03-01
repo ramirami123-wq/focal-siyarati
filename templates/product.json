@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "liquid_BNTrLL": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n.star-review-wrapper {\ndisplay: flex;\nalign-items: center;\ngap: 8px;\nflex-shrink: 0;\n}\n\n.star-icons svg {\nwidth: 20px;\nheight: 20px;\nfill: #AC0102; /* Your deep red color */\n}\n\n.review-text {\nfont-size: 16px;\nfont-weight: 500;\ncolor: #333;\nwhite-space: nowrap;\n}\n\n@media (max-width: 480px) {\n.star-review-wrapper {\nflex-direction: row;\njustify-content: center;\n}\n\n```\n.review-text {\n  font-size: 15px;\n}\n```\n\n}\n</style>\n\n<div class=\"star-review-wrapper\">\n<div class=\"star-icons\">\n<!-- 5 Rounded Stars -->\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n</div>\n<div class=\"review-text\">\n<strong>5</strong> by <strong>124+</strong> Customers\n</div>\n</div>"
-          }
-        },
         "liquid_KKiNTm": {
           "type": "liquid",
           "settings": {
@@ -35,9 +29,15 @@
           "settings": {
             "hide_sold_out_variants": false,
             "selector_mode": "block",
-            "color_mode": "swatch",
+            "color_mode": "none",
             "variant_image_options": "",
             "size_chart_page": ""
+          }
+        },
+        "liquid_MWnJ7B": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
           }
         },
         "quantity_selector": {
@@ -63,10 +63,10 @@
         }
       },
       "block_order": [
-        "liquid_BNTrLL",
         "liquid_KKiNTm",
         "liquid_WqHpzt",
         "variant_picker",
+        "liquid_MWnJ7B",
         "quantity_selector",
         "buy_buttons",
         "liquid_tGfrix"
@@ -141,11 +141,11 @@
           "type": "item",
           "settings": {
             "tab_label": "Item",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
+            "subheading": "",
+            "title": "",
+            "content": "<p><br/>✔️<strong> Powerful 3-in-1 cordless vacuum cleaner with suction & blower mode</strong><br/>✔️<strong> Interior cleaner for surfaces (dashboard, seats, doors & trim)</strong><br/>✔️ <strong>Air Freshener to Eliminates odors with a refreshing long-lasting scent</strong><br/>✔️ <strong>Soft microfiber towel for a streak-free, scratch-free finish</strong><br/></p>",
+            "button_text": "Shop",
+            "button_link": "shopify://products/complete-care-kit"
           }
         },
         "item_BrjwQF": {
@@ -156,8 +156,8 @@
             "subheading": "",
             "title": "",
             "content": "<p><br/>The <strong>Siyarati 3-in-1 Mini Vacuum</strong> delivers powerful suction and instant blower mode in one compact, cordless device. It easily removes dust, crumbs, pet hair, and debris from cars, desks, and tight spaces. Lightweight, rechargeable, and portable, it’s the perfect everyday cleaning tool for home, office, or travel. 💨<br/><br/></p>",
-            "button_text": "",
-            "button_link": ""
+            "button_text": "shop",
+            "button_link": "shopify://products/complete-care-kit"
           }
         }
       },
@@ -220,13 +220,13 @@
         "item_RnckDd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/1759066665_phpi4ae4pr759ne6NC4LOC.jpg",
+            "image": "shopify://shop_images/1758193148_php9ut01rgssiarcEKySGV.webp",
             "tab_label": "Item",
             "subheading": "",
             "title": "",
-            "content": "<p>✔️Restores faded plastic in minutes</p><p><br/>✔️Brings back deep, rich color instantly</p><p><br/>✔️ Long-lasting protection against sun damage ☀️</p>",
-            "button_text": "",
-            "button_link": ""
+            "content": "<p>✔️<strong>Reaches deep into vents & small gaps</strong></p><p><strong><br/>✔️Pick up dust, crumbs & dirt instantly</strong></p><p><strong><br/>✔️ Reusable and easy to store</strong></p>",
+            "button_text": "Shop",
+            "button_link": "shopify://products/cleaning-gel"
           }
         },
         "item_GpEwj6": {
@@ -237,8 +237,8 @@
             "subheading": "",
             "title": "",
             "content": "<p><br/>✔️ Cleans hard-to-reach areas quickly and easily<br/><br/>✔️ Saves space with one compact tool for multiple tasks<br/><br/>✔️ Cordless design lets you clean anywhere without hassle 💨<br/><br/></p>",
-            "button_text": "",
-            "button_link": ""
+            "button_text": "Shop",
+            "button_link": "shopify://products/3-in-1-vacuum-cleaner"
           }
         }
       },
@@ -439,22 +439,8 @@
         "question_adqrYK": {
           "type": "question",
           "settings": {
-            "title": "Does it have strong suction?",
+            "title": "Does the vacuum have strong suction?",
             "answer": "<p>Yes, it delivers powerful suction to remove dust, crumbs, pet hair, and small debris.</p>"
-          }
-        },
-        "question_TDP7NK": {
-          "type": "question",
-          "settings": {
-            "title": "Can it clean keyboards and electronics?",
-            "answer": "<p>Yes — the blower mode is perfect for safely removing dust from keyboards, PCs, and small devices.</p>"
-          }
-        },
-        "question_hPGXCN": {
-          "type": "question",
-          "settings": {
-            "title": "Is it strong enough for everyday messes?",
-            "answer": "<p>Yes — it easily picks up dust, crumbs, sand, and pet hair from daily use.</p>"
           }
         },
         "question_7Rxwez": {
@@ -470,15 +456,21 @@
             "title": "Is it noisy?",
             "answer": "<p>No, it’s quieter than traditional vacuums, making it suitable for indoor use.</p>"
           }
+        },
+        "question_TDP7NK": {
+          "type": "question",
+          "settings": {
+            "title": "Can we use the products for stuff other than cars?",
+            "answer": "<p>Yes some of our products can be used for stuff other than cars</p>"
+          }
         }
       },
       "block_order": [
         "category_y3mKtw",
         "question_adqrYK",
-        "question_TDP7NK",
-        "question_hPGXCN",
         "question_7Rxwez",
-        "question_Pzgd7t"
+        "question_Pzgd7t",
+        "question_TDP7NK"
       ],
       "name": "FAQ",
       "settings": {
