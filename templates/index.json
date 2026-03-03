@@ -16,6 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/B21013B1-8F59-4580-A980-0693D88A3AE6_-_Limit_Break_Parkour_Academy.png",
+            "mobile_image": "shopify://shop_images/car_interior.avif",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
